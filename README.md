@@ -59,6 +59,103 @@ should look like this:
 3. Bashful
 4. Grumpy
 ```
+ `roll_call_dwarves()`
+
+![dwarves](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/dwarves.jpg)
+
+This function should accept a list of dwarf names, for instance:
+
+```py
+["Doc", "Dopey", "Bashful", "Grumpy"]
+```
+
+It should then print out each name, in number order, using `print`. The print-out
+should look like this:
+
+```console
+1. Doc
+2. Dopey
+3. Bashful
+4. Grumpy# Cartoon Collections Lab
+
+## Learning Goals
+
+- Get practice iterating through lists
+- Build functions and control their return values.
+
+***
+
+## Key Vocab
+
+- **Interpreter**: a program that executes other programs. Python programs
+require the Python interpreter to be installed on your computer so that they
+can be run.
+- **Python Shell**: an interactive interpreter that can be accessed from the
+command line.
+- **Data Type**: a specific kind of data. The Python interpreter uses these
+types to determine which actions can be performed on different data items.
+- **Exception**: a type of error that can be predicted and handled without
+causing a program to crash.
+- **Code Block**: a collection of code that is interpreted together. Python
+groups code blocks by indentation level.
+- **Function**: a named code block that performs a sequence of actions when it
+is called.
+- **Scope**: the area in your program where a specific variable can be called.
+
+***
+
+## Instructions
+
+To get started, run `pipenv install` to create your virtual environment and
+`pipenv shell` to enter the virtual environment. Then run `pytest -x` to run
+your tests. Use these instructions and `pytest`'s error messages to complete
+your work in the `lib/` folder.
+
+There are four functions to complete in this lab:
+
+1. `roll_call_dwarves()`
+2. `summon_captain_planet()`
+3. `long_planeteer_calls()`
+4. `find_the_cheese()`
+
+### `roll_call_dwarves()`
+
+![dwarves](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/dwarves.jpg)
+
+This function should accept a list of dwarf names, for instance:
+
+```py
+["Doc", "Dopey", "Bashful", "Grumpy"]
+```
+
+It should then print out each name, in number order, using `print`. The print-out
+should look like this:
+
+```console
+1. Doc
+2. Dopey
+3. Bashful
+4. Grumpy
+```
+ `roll_call_dwarves()`
+
+![dwarves](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/dwarves.jpg)
+
+This function should accept a list of dwarf names, for instance:
+
+```py
+["Doc", "Dopey", "Bashful", "Grumpy"]
+```
+
+It should then print out each name, in number order, using `print`. The print-out
+should look like this:
+
+```console
+1. Doc
+2. Dopey
+3. Bashful
+4. Grumpy
+```
 
 ### `summon_captain_planet()`
 
